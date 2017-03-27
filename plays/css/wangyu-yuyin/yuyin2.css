@@ -1,0 +1,63 @@
+.zhezhao{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 999;
+	background: rgba(0,0,0,0.8);
+}
+.wy-shijian{
+	width: 4.2rem;
+	position: absolute;
+	z-index: 99999;
+	top: 35%;
+	left: 0;
+	bottom:35%;
+	right: 0;
+	margin: 0 auto;
+
+}
+.wy-shijian img{
+	width: 100%;
+}
+.wy-shijian .wy-yylz{
+	width: 1.48rem;
+	bottom:0.5rem;
+	position: absolute;
+	z-index:9999999;
+	left: 0.48rem;
+}
+.wy-shijian .wy-yylz img{
+	width: 100%;
+}
+.wy-shijian .wy-wzsr{
+	width: 1.48rem;
+	bottom:0.5rem;
+	right: 0.48rem;
+	position: absolute;
+}
+.wy-shijian .wy-wzsr img{
+	width: 100%;
+}
+@media screen and (max-height: 480px){
+.wy-shijian .wy-yylz{
+	width: 1.48rem;
+	bottom:-0.25rem;
+	position: absolute;
+	z-index:9999999;
+	left: 0.48rem;
+}
+.wy-shijian .wy-yylz img{
+	width: 100%;
+}
+.wy-shijian .wy-wzsr{
+	width: 1.48rem;
+	bottom:-0.25rem;
+	right: 0.48rem;
+	position: absolute;
+}
+.wy-shijian .wy-wzsr img{
+	width: 100%;
+}
+}

@@ -1,0 +1,84 @@
+@import url(base.css);
+body{
+	box-sizing:border-box;
+	background: #EFEFEF;
+	user-select :none;
+	background: url(../../images/wgbimg/zzjz.png) no-repeat center center/cover;
+
+}
+
+*{
+	margin: 0;
+	padding:0;
+}
+html{
+	height:100%;
+}
+p{
+	padding: 0;
+	margin:0;
+}
+body{
+	height: 100%;
+	font-family: Helvetica, sans-serif,"苹方";
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    box-sizing: border-box;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background: url(../../images/wgbimg/zzjz.png) no-repeat center center/cover;
+
+}
+a{
+    text-decoration: none;
+}
+
+.wgbjz{
+	height: 4.25rem;
+	width: 4.17rem;
+	display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+	background: url(../../images/wgbimg/wgbjz.png) no-repeat center center/cover;
+
+
+}
+
+.wgbjz .loader{
+	margin-top: 2.5rem;
+	widows: 100%;
+}
+
+.wgbjz .loader-inner>div{
+	background: #74ECFE;
+	width:5px;
+	height: 5px;
+
+}
+.loader-inner{
+	margin-left:0.44rem;
+}
+.wgbjz a {
+	display: block;
+	margin: 0 auto;
+}
+.wgbjz a img{
+	width: 2.5rem;
+}
+.wgbjz .yy{
+	display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;
+
+}
+
+.wgbjz .yy a img{
+	width: 1.5rem;
+}
+.wgbjz .yy a:first-child{
+	margin-right: 0.34rem;
+}

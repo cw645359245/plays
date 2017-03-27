@@ -1,0 +1,77 @@
+body{
+    background: #EFEFEF;
+}
+
+.weekday{
+    width:100%;
+    height:0.64rem;
+    background:#505050;
+    margin-top:0.88rem;
+    padding:0 0.5rem;
+    box-sizing: border-box;
+}
+.weekday ul{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.weekday ul li{
+    color:#FFFFFF;
+    font-size:15px;
+}
+
+
+/*2017年2月*/
+
+.month{
+    width:100%;
+    height: auto;
+}
+.month .title{
+    width:100%;
+    height:0.47rem;
+    font-size:12px;
+    line-height:0.47rem;
+    text-align: center;
+}
+.month ul{
+    width:100%;
+    height:3.71rem;
+    background:#fff;
+    font-size:15px;
+    padding:0 0.5rem;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+.month ul{
+    width:100%;
+    height:0.74rem;
+    background:#fff;
+    font-size:15px;
+    padding:0 0.5rem;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.month ul li{
+    width:0.47rem;
+    height:0.47rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.month ul li.now {
+    width:0.47rem;
+    height:0.47rem;
+    background:#898989;
+    border-radius: 0.05rem;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+    align-items: center;
+}

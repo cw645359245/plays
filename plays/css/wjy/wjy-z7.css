@@ -1,0 +1,149 @@
+body{
+	background-color: #fff;
+}
+.wjy-xo1{
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0.05rem;
+	padding-left: 0.75rem;
+	padding-right: 0.55rem;
+	padding-top: 0.2rem;
+	position: relative;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.wjy-xo2{
+	width: 100%;
+	height: 0.87rem;
+	line-height: 0.87rem;
+	border-bottom: 0.01rem solid #eaeaea;
+	position: relative;
+	padding-left: 0.52rem;
+}
+.wjy-xo3{
+	width: 0.25rem;
+	height: 0.25rem;
+	border-radius: 50%;
+	background-color: #fff;
+	display: block;
+	position: absolute;
+	left: -0.04rem;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	box-shadow: 0.05rem 0.05rem 0.2rem #ffd5e3;
+}
+.wjy-xo4{
+	width: 0.19rem;
+	height: 0.19rem;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: block;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	border-radius: 50%;
+	background-color: #ffa72a;
+}
+.wjy-xo2>span{
+	font-size: 12px;
+	color: #a0a0a0
+}
+.wjy-xoxo1{
+	background-color: #ff853c;
+}
+.wjy-xoxo2{
+	background-color: #ff803f;
+}
+.wjy-xoxo3{
+	background-color: #ff7644;
+}
+.wjy-xoxo4{
+	background-color: #ff5a54;
+}
+.wjy-xoxo5{
+	background-color: #ff5a54;
+}
+.wjy-xo6{
+	border: 0px;
+}
+.wjy-xobtn1{
+	width: 1.7rem;
+	height: 0.6rem;
+	background-color: #2bd2fc;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+	border-radius:0.27rem;
+	text-align: center;
+	line-height: 0.6rem;
+	color: #fff;
+	font-size: 12px;
+}
+.wjy-xobtn3{
+	background-color: #4b4b4b;
+}
+.wjy-xobtn4{
+	width: 100%;
+	height: 1.2rem;
+	position: absolute;
+	z-index: 99999;
+	left: 0px;
+	bottom: -1.64rem;
+	text-align: center;
+	line-height: 1.2rem;
+	margin-bottom: 0.08rem;
+}
+.wjy-xobtn4 a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	line-height: 1.2rem;
+	color: #fff;
+	font-size: 16px;
+	background-color: #ee5251;
+}
+.wjy-xoxoxo1{
+	width: 100%;
+	height: 4.9rem;
+	background-color: #fff;
+	border-radius: 0.05rem;
+	padding-top: 0.87rem;
+}
+.wjy-zz{
+	width: 100%;
+	height: 0.1rem;
+	background-color: #ebebeb;
+}
+
+/*swiper*/
+.swiper-container,.swiper-wrapper,.swiper-slide{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide{
+	padding-top: 1rem;
+	line-height: 0px;
+	transition:all 0.3s;
+}
+.swiper-slide img{
+	width: 100%;
+	font-size: 0px;
+}
+.swiper-slide:first-child{
+	margin-left: 0.87rem!important;
+}
+.swiper-slide-active{
+	padding-top: 0px;
+	width: 5.8rem!important;
+}
+.kkkkkkkkk{
+	width: 100%;
+	height: 0.88rem;
+}
+#wb_tabs{
+	z-index: 99999999999;
+}

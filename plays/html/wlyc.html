@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="apple-mobile-web-app-title" content="标题">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+　　<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<meta name='referrer' content="never">
+	<script src="../js/public/rem.js"></script>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/searchcss/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/searchcss/loaders.css"/>
+	<link rel="stylesheet" href="../css/searchcss/wlyc.css">
+</head>
+<body style="overflow:-scrool;overflow-x:hidden;-webkit-tap-highlight-color: rgba(0,0,0,0);">
+
+
+
+<!-- 头部开始 -->
+<header class="wgb-head">
+
+	<section class="left">
+		<a href="javascript:;">
+			<img src="../images/wgbimg/jt.png" alt="">
+		</a>
+		
+	</section>
+	<section class="middle">
+		<section>
+		
+			<input type="text" placeholder="搜索你要去得国家和城市">
+			<a href=""></a>
+		</section>
+	</section>
+	<section class="right">
+		<a href="" id="cx">
+			<img src="../images/wgbimg/fdj.png" alt="">
+
+		</a>
+	</section>
+	
+</header> 
+
+
+
+<!-- 搜索历史显示 -->
+
+<section class='wgb-search'>
+	<section class="top1">
+		<section class="title">
+			<img src="../images/wgbimg/lsjl.png" alt="">
+		</section>
+		<section class="nav">
+			<a href="javascript:;">
+				<span></span>
+				<span>泰国—曼谷-芭提雅</span>
+			</a>
+			<a href="javascript:;">
+				<span></span>
+				<span>日本-富士山</span>
+			</a>
+			<a href="javascript:;">
+				<span></span>
+				<span>西安-兵马俑</span>
+			</a>
+			<a href="javascript:;">
+				<span></span>
+				<span>云南-丽江古城</span>
+			</a>
+		</section>
+	</section>
+
+
+	<section class="qk top1">
+		<section class="title">
+			<img src="../images/wgbimg/rq.png" alt="">
+		</section>
+		<section class="nav">
+			<a href="javascript:;">
+				<span></span>
+				<span>山西-壶口瀑布</span>
+			</a>
+			<a href="javascript:;">
+				<span></span>
+				<span>法国-埃菲尔铁塔</span>
+			</a>
+
+			<a href="javascript:;" class="del" style="height:0.8rem,margin-top:0.2rem">
+				<span></span>
+				<span>清空历史记录</span>
+			</a>
+			
+		</section>
+		
+	</section>
+	
+</section>
+
+
+<!-- 网络异常显示 -->
+<section class='wlyc'>
+	<a href="">
+		<img src="../images/wgbimg/ggg.png" alt="" style="height:height:2.3rem;">
+	</a>
+
+</section>
+
+<section class="loader-inner ball-pulse">
+
+    <div></div>
+    <div></div>
+	<div></div>
+</section>
+
+<section class="sh">
+	<a href=""><img src="../images/wgbimg/shzs.png" alt=""></a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script src="../js/public/jquery-3.1.1.min.js"></script>
+<script>
+	var xc=document.querySelector("#cx");
+	var qk=document.querySelector(".wgb-search");
+	var del=document.querySelector('.del')
+	var flag=true;
+
+	// console.log(cx);
+xc.addEventListener('touchstart',function(){
+	if(flag){
+		
+		qk.classList.add('hot');
+	}else{
+		qk.classList.remove('hot');
+		
+	}
+})
+del.addEventListener('touchstart',function(){
+	
+		qk.classList.remove('hot');
+		
+})
+
+
+
+
+
+</script>
+
+
+
+

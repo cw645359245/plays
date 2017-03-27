@@ -1,0 +1,291 @@
+@import url("base.css ");
+
+
+body{
+	background: #EFEFEF;
+	height: 100%;
+}
+i{
+	font-style: normal;
+}
+section{
+	width: 100%;
+	height: auto;
+	margin-top: 0.88rem;
+}
+a{
+	color: #2D2D2D;
+}
+
+/*遮罩*/
+
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: fixed; 
+	left: -100%;
+	top: 0;
+	z-index: 9999;
+}
+
+/*头部*/
+#wb_tabs{
+	width: 100%;
+	height: 0.88rem;
+	position: fixed;
+	top:0;
+	background:#fff;
+	border-bottom:1px solid #EDEDED;
+	padding: 0 0.25rem;
+	z-index: 999;
+}
+#wb_tabs .wb_tcenter{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	background:url('../../images/ycw/topas1.png') no-repeat center 0; 
+	-webkit-background-size:100%;
+	background-size:100%;
+	position: relative;
+	background-color: #fff;
+}
+/*42*42*/
+#wb_tabs .wb_tcenter a{
+	display: inline-block;
+	
+}
+#wb_tabs .wb_tcenter a:nth-child(1){
+	text-align: center;
+
+}
+#wb_tabs .wb_tcenter a img{
+	width: 0.41rem;
+	
+}
+#wb_tabs .wb_tcenter input{
+	width: 5.4rem;
+	height: 0.5rem;
+	border-radius: 0.3rem;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	background: #F2F2F2;
+	/*margin-left: 0.4rem;*/
+	padding-left: 0.25rem;
+}
+
+/*酒店列表*/
+.hotel-list{
+	width: 100%;
+	height: auto;
+	padding: 0.4rem  0.25rem 0.3rem 0.25rem;
+	display: flex;
+	position: relative;
+	z-index: 99;
+	justify-content:space-between;
+}
+
+.hotel-list a{
+	display:flex;
+}
+
+.hotel-list a span{
+
+	font-size:16px;
+	text-align: center;
+	color: #2D2D2D;
+}
+@media screen and (max-width: 320px){
+.hotel-list a span{
+	font-size:14px;
+	color: #2D2D2D;
+ }
+   .hotel-item .hotel-item-right .fen{
+	 font-size: 14px;
+  	text-align: center;
+  	margin-top: 0.05rem;
+  }
+
+  .hotel-item .hotel-item-right .good{
+    font-size: 14px;
+  	text-align: center;
+  	margin-top: 0.05rem;
+  }
+}
+.hotel-list a img{
+   width: 0.5rem;
+   height: 0.5rem;
+}
+/*下拉菜单*/
+.down-list{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #fff;
+	z-index: 99999999999;
+}
+.down-list .lists-items{
+	width: 100%;
+	height: 0;
+	position: absolute;
+	border-radius: 0.1rem;
+	left: 0;
+	top: 2.05rem;
+/*	transition:height 0.3s 0.5s;
+	-webkit-transition:height 0.3s;*/
+	display: flex;
+	padding:0 0.24rem;
+	background: #fff;
+	flex-direction:column;
+	overflow: hidden;
+	z-index: 9999999999;
+}
+.down-list .lists-items li{
+	/*padding: 0.36rem 0;*/
+	height: 1rem;
+	background: #fff;
+	display: flex;
+	border-bottom: 0.01rem solid #DBDBDB;
+}
+.down-list .lists-items li a{
+	display: flex;
+	width: 100%;
+	justify-content:space-between;
+	align-items:center;
+	line-height: 1rem;
+
+}
+
+.down-list .lists-items li a .zi{
+
+	transition:all 0.2s 0.8s;
+}
+/*.down-list .lists-items li a:nth-child(1){
+	
+	text-align: center;
+}*/
+
+.hott{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../../images/ycw/dui.png)no-repeat center center/100%;
+}
+
+
+
+
+
+ .hotel-item{
+	display: flex;
+	background: #FFF;
+	margin-bottom: 0.2rem;
+}
+
+ .hotel-item .img{
+ 	display: block;
+ 	background: url(../../images/ycw/hotel1.jpg)no-repeat center center/cover;
+	width: 2.41rem;
+	flex:0 0 auto;
+}
+
+ .hotel-item .img2{
+ 	display: block;
+ 	background: url(../../images/ycw/hotel3.jpg)no-repeat center center/cover;
+	width: 2.41rem;
+	flex:0 0 auto;
+}
+ .hotel-item .img3{
+ 	display: block;
+ 	background: url(../../images/ycw/hotel2.jpg)no-repeat center center/cover;
+	width: 2.41rem;
+	flex:0 0 auto;
+}
+ .hotel-item .img4{
+ 	display: block;
+ 	background: url(../../images/ycw/hotel4.jpg)no-repeat center center/cover;
+	width: 2.41rem;
+	flex:0 0 auto;
+}
+ .hotel-item .img5{
+ 	display: block;
+ 	background: url(../../images/ycw/hotel5.jpg)no-repeat center center/100%;
+	width: 2.41rem;
+	flex:0 0 auto;
+}
+ .hotel-item .hotel-item-right{
+	flex:1 0 auto;
+}
+
+ .hotel-item .hotel-item-right h2{
+ 	padding: 0.25rem 0.25rem;
+ }
+
+ .hotel-item .hotel-item-right .text{
+ 	padding-left: 0.25rem;
+ 	padding-right: 0.35rem;
+ 	display: flex;
+ 	justify-content:space-between;
+ }
+  .hotel-item .hotel-item-right .text span{
+  	line-height: 0.46rem;
+  	text-align: center;
+  }
+  .hotel-item .hotel-item-right a{
+  	display: block;
+  }
+  .hotel-item .hotel-item-right .fen{
+  	color: #FD1440;
+  	text-align: center;
+  }
+
+  .hotel-item .hotel-item-right .good i{
+  	color: #FD1440;
+  	text-align: center;
+  }
+
+  .hotel-item .hotel-item-right .start i{
+  	color: #FD1440;
+  	font-size: 20px;
+  	text-align: center;
+  }
+
+
+.hotel-item .hotel-item-right h3{
+ 	padding: 0 0.25rem;
+ 	font-weight: normal;
+ 	
+ }
+ .hotel-item .hotel-item-right h3 span{
+ 	font-size: 14px;
+ }
+ .hotel-item .hotel-item-right h3 p{
+ 	width: 0.02rem;
+ 	height: 0.24rem;
+ 	background: #8C8C8C;
+ 	/*margin-top: 0.05rem;*/
+ 	display: inline-block;
+ }
+
+
+  .hotel-item .hotel-item-right .down{
+  	padding: 0.2rem 0.25rem;
+  	display: flex;
+  	justify-content:space-between;
+  }
+
+
+ .hotel-item .hotel-item-right .down .from{
+ 	font-size: 10px;
+
+ }
+  .hotel-item .hotel-item-right .down .order{
+ 	font-size: 10px;
+ 	color:#9EF1FE;
+ 	
+ }

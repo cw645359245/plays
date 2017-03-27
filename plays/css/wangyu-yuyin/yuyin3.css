@@ -1,0 +1,76 @@
+.yy1{
+	width: 0.14rem;
+	height: 2.42rem;
+	float: left;
+	background: #D2D2D2;
+	border-radius: 0.09rem;
+	position: relative;
+}
+.yy2{
+	width: 100%!important;
+	height: 100% !important;
+	float: left!important;
+	border-radius: 0.09rem;
+	background-image:linear-gradient(to top,#60ABE2 0%,#60ABE2 20%,#C678CB 40%,#C678CB 60%,#DDDDDD 90%,#DDDDDD 100%)!important; 
+	position: absolute!important;
+	bottom:0!important;
+	animation-name:tiaodong;
+	animation-duration:1s;
+	animation-timing-function:steps;
+	animation-iteration-count:infinite;
+}
+@keyframes tiaodong{
+	0%{
+		height: 0rem;
+	}
+	20%{
+		height: 0.40rem;
+	}
+	50%{
+		height: 1rem;
+	}
+	70%{
+		height: 1.7rem;
+	}
+	90%{
+		height: 2.2rem;
+	}
+}
+.wy-yuyinqu .quxiao{
+	width: 1.1rem;
+	height: 1.1rem;
+	margin: 0.6rem  0 0 1.4rem;
+	position: absolute;
+}
+.wy-yuyinqu .quxiao img{
+	width: 100%;
+}
+.wy-yuyinqu .queding{
+	width: 1.1rem;
+	height: 1.1rem;
+	float: right;
+	margin: -1.4rem  0 0 5rem;
+	position: absolute;
+}
+.wy-yuyinqu .queding img{
+	width: 100%;
+}
+@media screen and (max-height: 480px){
+	.wy-yuyinqu .quxiao{
+	width: 1rem;
+	height: 1rem;
+	margin: 0.2rem  0 0 1.4rem;
+}
+.wy-yuyinqu .quxiao img{
+	width: 100%;
+}
+.wy-yuyinqu .queding{
+	width: 1rem;
+	height: 1rem;
+	float: right;
+	margin: -1.1rem  0 0 5rem;
+}
+.wy-yuyinqu .queding img{
+	width: 100%;
+}
+}

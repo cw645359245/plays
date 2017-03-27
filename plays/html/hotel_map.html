@@ -1,0 +1,116 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<script src="../js/ycw/rem.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=gr1hoUI69DCQPke9v6yLR3Eqt2ZbPPIO"></script>
+	<title></title>
+</head>
+<style>
+body, html{width: 100%;height: 100%; margin:0;font-family:"微软雅黑";
+font-size: 14px;}
+#l-map{height:100%;width:100%;
+}
+
+
+
+*{
+	box-sizing:border-box;
+}
+/*头部*/
+#wb_tabs{
+	width: 100%;
+	height: 0.88rem;
+	position: fixed;
+	top:0;
+	background:#fff;
+	border-bottom:1px solid #EDEDED;
+	padding: 0 0.25rem;
+	z-index: 999999999999999;
+}
+#wb_tabs .wb_tcenter{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	background:url('../images/ycw/topas1.png') no-repeat center 0; 
+	-webkit-background-size:100%;
+	background-size:100%;
+	position: relative;
+}
+/*42*42*/
+#wb_tabs .wb_tcenter a{
+	display: inline-block;
+	
+}
+#wb_tabs .wb_tcenter a:nth-child(1){
+	/*float: left;*/
+	line-height: 1.1rem;
+	text-align: center;
+
+}
+#wb_tabs .wb_tcenter a img{
+	width: 0.42rem;
+	
+}
+#wb_tabs .wb_tcenter input{
+	width: 5.4rem;
+	height: 0.5rem;
+	border-radius: 0.2rem;
+	border: none;
+	outline: none;
+	background: #F2F2F2;
+	/*margin-left: 0.4rem;*/
+	padding-left: 0.25rem;
+}
+</style>
+<body>
+	<header id="wb_tabs">
+			<div class="wb_tcenter">
+				<a href="hotel_list.html">
+					<img src="../images/ycw/return2.png" alt="">
+				</a>
+				<input type="text"placeholder="酒店名/位置">
+				<a href="javascript:;" id="searchs">
+					<img src="../images/ycw/search1.png" alt="">
+				</a>	
+			</div>
+	</header>
+	<div id="l-map">
+	
+	</div>
+	<!-- <div id="r-result"></div> -->
+</body>
+</html>
+<script type="text/javascript">
+	// 百度地图API功能
+	var input=document.querySelector("#wb_tabs .wb_tcenter input");
+	var home="山西丽华大酒店";
+	var map = new BMap.Map("l-map");         
+	// 创建Map实例
+	map.centerAndZoom(new BMap.Point(112.541354, 37.824781), 20);
+	var local = new BMap.LocalSearch(map, {
+		renderOptions: {map: map}
+	});
+		local.search("山西丽华大酒店");
+	var myGeo = new BMap.Geocoder();
+	// 将地址解析结果显示在地图上,并调整地图视野
+	myGeo.getPoint("太原市小店区长风西街1号丽华大酒店 ", function(point){
+		if (point) {
+			map.centerAndZoom(point, 16);
+			map.addOverlay(new BMap.Marker(point));
+		}else{
+			alert("您选择地址没有解析到结果!");
+		}
+	}, "太原市");
+	var driving = new BMap.DrivingRoute(map,{renderOptions: {map: map, autoViewport: true}});
+	input.addEventListener("blur",function(){
+		var values=input.value;
+		home=values;
+		console.log(home)
+		driving.search("凯通大厦", home);
+	});
+	map.enableScrollWheelZoom(true);
+</script>

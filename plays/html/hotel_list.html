@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>酒店列表</title>
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0, maximum-scale = 1.0,user-scalable = 0" />
+	<script src="../js/ycw/rem.js"></script>
+	<link rel="stylesheet" href="../css/ycw/hotel_list.css">
+</head>
+<body>
+<div class="mask"></div>
+   	<header id="wb_tabs">
+			<div class="wb_tcenter">
+				<a href="hotel_home.html">
+					<img src="../images/ycw/return2.png" alt="">
+				</a>
+				<input type="text"placeholder="酒店名/位置">
+				<a href="hotel_map.html" id="searchs">
+					<img src="../images/ycw/location.png" alt="">
+				</a>	
+			</div>
+	</header>
+
+	<section>
+	<!-- 酒店列表 -->
+		<div class="hotel-list">
+	   	      <a href="javascript:;" class="as">
+	   	      	<span>推荐排序</span>
+	   	      	<img src="../images/ycw/down.png" alt="">
+	   	      </a>
+	   	      <a href="javascript:;" class="as">
+	   	      	<span>星级价格</span>
+	   	      	<img src="../images/ycw/down.png" alt="">
+	   	      </a>
+	   	      <a href="javascript:;" class="as">
+	   	      	<span>位置区域</span>
+	   	      	<img src="../images/ycw/down.png" alt="">
+	   	      </a>
+	   	      <a href="javascript:;" class="as">
+	   	      	<span>特色</span>
+	   	      	<img src="../images/ycw/down.png" alt="">
+	   	      </a>
+	   	      <!-- 下拉菜单 -->
+	  	</div>
+	  	 <div class="down-list">
+	   	      <ul class="lists-items">
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  		<span  class="zi">不限</span>
+	   	      	  		<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span  class="zi">推荐排序</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">评分高→低</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">距离近→远</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">价格低→高</span>
+	   	      	  			<span class="active hott"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      </ul>
+	   	       <ul class="lists-items">
+	   	      	  	<li>
+	   	      	  		<a href="j class="zi"avascript:;"><span>不限</span>
+	   	      	  			<span class="active hott"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">二星经济</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">三星舒适</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">四星高档</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">五星豪华</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      </ul>
+	   	       <ul class="lists-items">
+	   	      	  	<li>
+	   	      	  		<a href="j class="zi"avascript:;"><span>不限</span>
+	   	      	  			<span class="active"></span></a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">东区</span>
+	   	      	  			<span class="active hott"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">西区</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">南区</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">北区</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      </ul>
+	   	       <ul class="lists-items">
+	   	      	  	<li>
+	   	      	  		<a href="j class="zi"avascript:;"><span>不限</span>
+	   	      	  			<span class="active"></span></a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">休闲度假</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">客栈名宿</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">购物便捷</span>
+	   	      	  			<span class="active hott"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      	  	<li>
+	   	      	  		<a href="javascript:;">
+	   	      	  			<span class="zi">青年旅社</span>
+	   	      	  			<span class="active"></span>
+	   	      	  		</a>
+	   	      	  	</li>
+	   	      </ul>
+	   	    </div>
+	  	<div class="hotel-item">
+	  	 	<a href="hotel_detail.html" class="img">
+
+	  	 	</a>
+	  	 	<div class="hotel-item-right">
+		  	 	<a href="hotel_detail.html">
+		  	 		<h2>太原三晋商务酒店</h2>
+		  	 		<p class="text">
+		  	 			<span class="fen">4.4分</span>
+		  	 			<span class="good">已好评 <i>300</i>次</span>
+		  	 			<span class="start">￥<i>285</i>起</span>
+		  	 		</p>
+					<h3>
+						<span>舒适性</span>
+						<p></p>
+						<span>2012年装修</span>
+					</h3>
+					<p class="down">
+						<span class="from">距你直线距离6公里</span>
+						<span class="order">1小时前有人预定</span>
+					</p>
+
+				</a>
+	  	 	</div>
+	  	</div>
+	  	<div class="hotel-item">
+	  	 	<a href="hotel_detail.html" class="img2">
+
+	  	 	</a>
+	  	 	<div class="hotel-item-right">
+		  	 	<a href="hotel_detail.html">
+		  	 		<h2>锦江之星风尚</h2>
+		  	 		<p class="text">
+		  	 			<span class="fen">4.4分</span>
+		  	 			<span class="good">已好评 <i>167</i>次</span>
+		  	 			<span class="start">￥<i>146</i>起</span>
+		  	 		</p>
+					<h3>
+						<span>经济性</span>
+						<p></p>
+						<span>2013年装修</span>
+					</h3>
+					<p class="down">
+						<span class="from">距你直线距离1.6公里</span>
+						<span class="order">8小时前有人预定</span>
+					</p>
+
+				</a>
+	  	 	</div>
+	  	</div>
+	  	<div class="hotel-item">
+	  	 	<a href="hotel_detail.html" class="img3">
+
+	  	 	</a>
+	  	 	<div class="hotel-item-right">
+		  	 	<a href="hotel_detail.html">
+		  	 		<h2>万达文华酒店</h2>
+		  	 		<p class="text">
+		  	 			<span class="fen">4.7分</span>
+		  	 			<span class="good">已好评 <i>234</i>次</span>
+		  	 			<span class="start">￥<i>673</i>起</span>
+		  	 		</p>
+					<h3>
+						<span>豪华型</span>
+						<p></p>
+						<span>2012年装修</span>
+					</h3>
+					<p class="down">
+						<span class="from">距你直线距离5公里</span>
+						<span class="order">6小时前有人预定</span>
+					</p>
+
+				</a>
+	  	 	</div>
+	  	</div>
+	  	<div class="hotel-item">
+	  	 	<a href="hotel_detail.html" class="img4">
+
+	  	 	</a>
+	  	 	<div class="hotel-item-right">
+		  	 	<a href="hotel_detail.html">
+		  	 		<h2>山西丽华大酒店</h2>
+		  	 		<p class="text">
+		  	 			<span class="fen">4.6分</span>
+		  	 			<span class="good">已好评 <i>201</i>次</span>
+		  	 			<span class="start">￥<i>689</i>起</span>
+		  	 		</p>
+					<h3>
+						<span>五星级</span>
+						<p></p>
+						<span>2015年装修</span>
+					</h3>
+					<p class="down">
+						<span class="from">距你直线距离3公里</span>
+						<span class="order">1小时前有人预定</span>
+					</p>
+
+				</a>
+	  	 	</div>
+	  	</div>
+		<div class="hotel-item">
+	  	 	<a href="hotel_detail.html" class="img5">
+
+	  	 	</a>
+	  	 	<div class="hotel-item-right">
+		  	 	<a href="hotel_detail.html">
+		  	 		<h2>太原并州饭店</h2>
+		  	 		<p class="text">
+		  	 			<span class="fen">4.4分</span>
+		  	 			<span class="good">已好评 <i>369</i>次</span>
+		  	 			<span class="start">￥<i>381</i>起</span>
+		  	 		</p>
+					<h3>
+						<span>豪华型</span>
+						<p></p>
+						<span>2013年装修</span>
+					</h3>
+					<p class="down">
+						<span class="from">距你直线距离2.5公里</span>
+						<span class="order">3小时前有人预定</span>
+					</p>
+
+				</a>
+	  	 	</div>
+	  	</div>
+		
+	</section>
+  
+
+
+	<script src="../js/ycw/hotel.js"></script>
+</body>
+</html>

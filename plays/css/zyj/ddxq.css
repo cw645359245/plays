@@ -1,0 +1,362 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing:border-box;
+	text-decoration: none;
+	font-family: Helvetica;
+	/*overflow: scroll;*/
+}
+body{
+	width: 100%;
+	overflow: hidden;
+	overflow: scroll;
+}
+			/*header*/
+.header{
+	width: 100%;
+	height: 0.88rem;
+	float: left;
+	background: #FEFFFF;
+	border-bottom: 1px solid #EFEFEF;
+}
+.header-center{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.header-center img{
+	width: 0.44rem;
+	height: 0.44rem;
+}
+
+#wb_tabs{
+	width: 100%;
+	height: 0.88rem;
+	position: fixed;
+	top:0;
+	background:#fff;
+	border-bottom:1px solid #EDEDED;
+	padding: 0 0.25rem;
+	z-index: 9999;
+}
+#wb_tabs .wb_tcenter{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background:url('../../images/zyj/topas1.png') no-repeat center 0; 
+	-webkit-background-size:100%;
+	background-size:100%;
+	position: relative;
+}
+/*42*42*/
+#wb_tabs .wb_tcenter a{
+	display: inline-block;
+}
+#wb_tabs .wb_tcenter a:nth-child(1){
+	height: 0.88rem;
+	float: left;
+	line-height: 1.1rem;
+	vertical-align:middle;
+	position: relative;
+	z-index: 999999;
+}
+#wb_tabs .wb_tcenter a:nth-child(1) img{
+	width: 0.42rem;
+	
+}
+#wb_tabs .wb_tcenter .wb_acen{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    /*line-height: 0.88rem;*/
+    font-size: 18px;
+    color: #000;
+}
+.wb_acen .wb_acem{
+	padding: 0.05rem;
+	height: 100%;
+	-webkit-text-transform:uppercase;
+	text-transform:uppercase;
+}
+.wb_acem .wb_zm{
+	font-size: 10px;
+	color:#1C1C1C;
+	/*line-height: 0.88rem;*/
+}
+.wb_acem .wb_hz{
+	font-size: 12px;
+	color:#1C1C1C;
+}
+.wb_hz .wb_cez{
+	margin: 0 0.15rem
+}
+.wb_hz .wb_led{
+	line-height: 100%;
+}
+.wb_hz .wb_led img{
+	vertical-align: middle;	
+}
+.wb_hz .wb_rid{
+	line-height: 100%;
+}
+.wb_hz .wb_rid img{
+	vertical-align: middle;	
+}
+#wb_tabs .wb_tcenter a:nth-child(3){
+	height: 0.88rem;
+	float: right;
+	line-height: 1.1rem;
+	vertical-align:middle;
+	position: relative;
+	z-index: 999999;
+}
+#wb_tabs .wb_tcenter a:nth-child(3) img{
+	width: 0.42rem;
+}
+
+/*==================================*/
+/*==================================*/
+/*==================================*/
+		/*订单详情*/
+.ddxq{
+	width: 100%;
+	margin-top: 0.88rem;
+	height: 5.06rem;
+	float: left;
+	background: #FEFFFF;
+}
+.ddxq-center{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.ddxq-center span{
+	color: #1C1C1C;
+	font-size: 12px;
+}
+.center-ddh{
+	width: 100%;
+	height: 1.08rem;
+	float: left;
+	border-bottom: 1px solid #E2E2E2;
+}
+.center-ddh span:nth-child(1){
+	color: #1C1C1C;
+	font-size: 12px;
+	width: 100%;
+	height: 50%;
+	float: left;
+	/*background: red;*/
+	line-height: 0.8rem;
+	font-weight: bold;
+}
+.center-ddh span:nth-child(2){
+	color: #1C1C1C;
+	font-size: 12px;
+	width: 100%;
+	height: 50%;
+	float: left;
+	/*background: yellow;*/
+	line-height: 0.6rem;
+}
+.center-rb{
+	width: 100%;
+	height: 1.22rem;
+	float: left;
+	border-bottom: 1px solid #E2E2E2;
+	position: relative;
+}
+.center-rb img{
+	float: right;
+	width: 0.49rem;
+	height: 0.31rem;
+	margin-top: -10px;
+	/*position: absolute;*/
+}
+.center-rb span:nth-child(1){
+	width: 100%;
+	height:45%;
+	float: left;
+	line-height: 0.61rem;
+}
+.center-rb span:nth-child(2){
+	width: 100%;
+	height:55%;
+	float: left;
+	line-height: 0.31rem;
+}
+.center-ddje{
+	width: 100%;
+	height: 0.51rem;
+	float: left;
+	border-bottom: 1px solid #E2E2E2;
+}
+.center-ddje span{
+	line-height: 0.5rem;
+	font-weight: bold;
+}
+.center-zfje{
+	width: 100%;
+	height: 0.5rem;
+	float: left;
+	border-bottom: 1px solid #E2E2E2;
+}
+.center-zfje span{
+	line-height: 0.5rem;
+	font-weight: bold;
+}
+.center-cfsj{
+	width: 100%;
+	height: 0.51rem;
+	float: left;
+	border-bottom: 1px solid #E2E2E2;
+}
+.center-cfsj span{
+	line-height: 0.5rem;	
+	font-weight: bold;
+}
+.center-glsj{
+	width: 100%;
+	height: 0.51rem;
+	float: left;
+	border-bottom: 1px solid #E2E2E2;
+}
+.center-glsj span{
+	line-height: 0.5rem;
+	font-weight: bold;	
+}
+.center-cyrs{
+	width: 100%;
+	height: 0.67rem;
+	float: left;
+	font-weight: bold;
+}
+.center-cyrs span{
+	line-height: 0.55rem;	
+}
+.kbg{
+	width: 100%;
+	height: 0.1rem;
+	float: left;
+	background: #EFEFEF;
+}
+/*==================================*/
+/*==================================*/
+/*==================================*/
+		/*单房差价*/
+.dfcj{
+	width: 100%;
+	height:2.45rem;
+	float: left;
+	background: #FEFFFF;
+}
+.dfcj-center{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+	/*background: yellow;*/
+	position: relative;
+}
+.dfcj-center ul{
+	width: 100%;
+	height: 1.9rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	/*background: yellow;*/
+}
+.dfcj-center ul li span{
+	color: #1C1C1C;
+	font-size: 12px;
+}
+/*==================================*/
+/*==================================*/
+/*==================================*/
+		/*保险信息*/
+.bxxx{
+	width: 100%;
+	height: 1.8rem;
+	float: left;
+	background: #FEFFFF;
+}
+.bxxx-center{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.bxxx-center span{
+	color: #1C1C1C;
+	font-size: 12px;
+	width: 100%;
+	float: left;
+}
+.bxxx-center span:nth-child(1){
+	line-height: 0.72rem;
+	height: 0.72rem;
+}
+.bxxx-center span:nth-child(2){
+	line-height: 0.2rem;
+	height: 0.53rem;
+}
+.bxxx-center span:nth-child(3){
+	line-height: 0.1rem;
+	height: 0.53rem;
+}
+/*==================================*/
+/*==================================*/
+/*==================================*/
+		/*游客信息*/
+.ykxx{
+	width: 100%;
+	height: 3.75rem;
+	float: left;
+	background: #FEFFFF;
+}
+.ykxx-center{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.ykxx-center-top{
+	width: 100%;
+	height: 0.63rem;
+	float: left;
+	/*background: red;*/
+}
+.ykxx-center span{
+	color: #1C1C1C;
+	font-size: 12px;
+}
+.ykxx-center-top span{
+	color: #1C1C1C;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 0.75rem;
+}
+.ykxx-center ul{
+	width: 100%;
+	height: 3.12rem;
+	float: left;
+	/*background: yellow;*/
+}
+.ykxx-center ul li{
+	width: 100%;
+	height: 0.51rem;
+	float: left;
+	border-bottom: 1px solid #E2E2E2;
+}
+.ykxx-center ul span{
+	line-height: 0.51rem;
+}
+/*312*/
+/*==================================*/
+/*==================================*/
+/*==================================*/

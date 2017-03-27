@@ -1,0 +1,191 @@
+@import url("base.css");
+
+
+
+body{
+	background: #EFEFEF;
+}
+a{
+	color: #757575;
+}
+#wb_tabs{
+	width: 100%;
+	height: 0.88rem;
+	position: fixed;
+	top:0;
+	background:#fff;
+	border-bottom:1px solid #EDEDED;
+	padding: 0 0.25rem;
+	z-index: 999999999999999;
+}
+#wb_tabs .wb_tcenter{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	background:url('../../images/ycw/topas1.png') no-repeat center 0; 
+	-webkit-background-size:100%;
+	background-size:100%;
+	position: relative;
+}
+/*42*42*/
+#wb_tabs .wb_tcenter a{
+	display: inline-block;
+	
+}
+#wb_tabs .wb_tcenter a:nth-child(1){
+	text-align: center;
+
+}
+#wb_tabs .wb_tcenter a img{
+	width: 0.42rem;
+	
+}
+ /*国内酒店 */
+section{
+	width: 100%;
+	height: auto;
+	margin-top: 0.97rem;
+	
+}
+
+.hotel-box{
+	width: 100%;
+	height: auto;
+	padding: 0 0.80rem;
+	background: #fff;
+
+}
+
+.hotel-box li{
+	width: 100%;
+	display: flex;
+	height: auto;
+	justify-content:space-between;
+	border-bottom: 0.01rem solid #787777;
+}
+
+
+
+.hotel-box li:nth-child(1){
+	padding-top:0.23rem;
+}
+
+.hotel-box li .home{
+	display: block;
+     width: 50%;
+     font-weight: bold;
+     text-align: center;
+     height:0.86rem;
+     line-height: 0.86rem;
+     padding:0 0.7rem;
+
+
+    
+}
+
+.hotel-box li .hometwo span{
+	display: block;
+	width: 100%;
+	height: 0.05rem;
+	background: #74ECFE;
+	margin-top: -0.05rem;
+}
+.hotel-box li .line{
+	width: 1px;
+	height: 0.4rem;
+	background: #787777;
+	margin-top: 0.23rem;
+}
+
+@media screen and (max-width:340px){
+
+.hotel-box li .hometwo span{
+	display: block;
+	width: 100%;
+	height: 0.05rem;
+	background: #74ECFE;
+	margin-top: -0.04rem;
+ }
+}
+.hotel-box li .hometwo{
+	display: block;
+     width: 50%;
+     font-weight: bold;
+     text-align: center;
+     height:0.86rem;
+     line-height: 0.86rem;
+     padding: 0 0.7rem;
+
+    
+}
+
+
+/*附近*/
+.hotel-box li .round{
+	padding: 0.4rem 0;
+	display: flex;
+}
+.hotel-box li .round a{
+	display: flex;
+	padding: 0 0.47rem;
+}
+.hotel-box li .round a img{
+	height:0.48rem;
+	margin-left: 0.1rem;
+}
+.hotel-box li .round span{
+	text-align: center;
+	line-height: 0.5rem;
+}
+/*住店*/
+.hotel-box li  .zhu:nth-child(1){
+	padding: 0rem  0 0.15rem 0.47rem; ;
+}
+.hotel-box li  .zhu h5{
+	padding:0.27rem 0; 
+	font-weight: normal;
+}
+
+
+.hotel-box li  .zhu a span:last-child{
+	font-size: 14px;
+}
+.hotel-box li  .zhu .su{
+	padding-right: 0.37rem;
+}
+/*酒店位置*/
+.hotel-box li .hotels{
+	width: 100%;
+	display: flex;
+	padding: 0.47rem 0.37rem 0.47rem 0.47rem ;
+	justify-content:space-between;
+}
+.hotel-box li .hotels span{
+	
+	margin-top: 0.05rem;
+}
+/*查询按钮*/
+.hotel-box li .btn{
+	width:5.45rem;
+	height: 1.25rem;
+	padding: 0 0.46rem;
+	margin: 0 auto;
+	margin-top: 0.66rem ;
+	margin-bottom: 0.46rem;
+	background:url(../../images/ycw/btns.png) no-repeat center center/100%;
+
+}
+.hotel-box li .btn a{
+	display: block;
+	text-align: center;
+	line-height: 1.25rem;
+	color: #fff;
+	font-size: 14px;
+}
+.hotel-box li:last-child{
+	border: 0;
+}
+

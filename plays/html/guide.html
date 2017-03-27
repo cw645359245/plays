@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+    <link rel="stylesheet" href="../css/public/base.css">
+    <link rel="stylesheet" href="../css/public/swiper.min.css">
+    <link rel="stylesheet" href="../css/bzp/daren.css">
+    <link rel="stylesheet" href="../css/bzp/morehead.css">
+    <script src="../js/public/rem.js"></script>
+    <title>导游</title>
+</head>
+<body>
+    <header class="head">
+        <a href="more.html">
+            <img src="../images/bzp/back.png" alt="">
+        </a>
+        <span>导游</span>
+    </header>
+    <div id="title-img">
+        <img src="../images/bzp/rmdy.png" alt="">
+    </div>
+    <div class="swiper-container guidebox">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="guide-intro">
+                    <a href="guide-xq.html">
+                        <img src="../images/bzp/guide1.png" alt="">
+                    </a>
+                    <div>
+                        <span>奔跑的皮皮虾</span>
+                        <span>从业经验：5年</span>
+                    </div>
+                </div>
+                <p class="description duotext">
+                    简介：带团经验丰富，对当地景区十分熟悉。如果您选择我做您的向导，一定不会让您失望。吃好玩好心情好！
+                    服务城市：北京、天津。
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <div class="guide-intro">
+                    <a href="guide-xq.html">
+                        <img src="../images/bzp/guide1.png" alt="">
+                    </a>
+                    <div>
+                        <span>奔跑的皮皮虾</span>
+                        <span>从业经验：5年</span>
+                    </div>
+                </div>
+                <p class="description duotext">
+                    简介：带团经验丰富，对当地景区十分熟悉。如果您选择我做您的向导，一定不会让您失望。吃好玩好心情好！
+                    服务城市：北京、天津。
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <div class="guide-intro">
+                    <a href="guide-xq.html">
+                        <img src="../images/bzp/guide1.png" alt="">
+                    </a>
+                    <div>
+                        <span>奔跑的皮皮虾</span>
+                        <span>从业经验：5年</span>
+                    </div>
+                </div>
+                <p class="description duotext">
+                    简介：带团经验丰富，对当地景区十分熟悉。如果您选择我做您的向导，一定不会让您失望。吃好玩好心情好！
+                    服务城市：北京、天津。
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <div class="guide-intro">
+                    <a href="guide-xq.html">
+                        <img src="../images/bzp/guide1.png" alt="">
+                    </a>
+                    <div>
+                        <span>奔跑的皮皮虾</span>
+                        <span>从业经验：5年</span>
+                    </div>
+                </div>
+                <p class="description duotext">
+                    简介：带团经验丰富，对当地景区十分熟悉。如果您选择我做您的向导，一定不会让您失望。吃好玩好心情好！
+                    服务城市：北京、天津。
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="title-img">
+        <img src="../images/bzp/guide-tj.png" alt="">
+    </div>
+    <section class="tuijian">
+        <div class="tj-list">
+            <a href="guide-xq.html">
+                <div class="img"></div>
+                <div class="title">
+                    <p>奔跑的皮皮虾</p>
+                    <p>三亚五日游：畅游天涯海角、株洲之岛。</p>
+                    <img src="../images/bzp/guide3.png" alt="">
+                </div>
+            </a>
+        </div>
+    </section>
+</body>
+</html>
+<script src="../js/public/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.guidebox', {});
+    var swiperslide=document.querySelectorAll('.swiper-slide');
+    for(var i=0;i<swiperslide.length;i++){
+        swiperslide[i].classList.remove('swiper-slide-active');
+    }
+    swiperslide[1].classList.add('swiper-slide-active');
+</script>

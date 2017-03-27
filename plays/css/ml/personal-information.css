@@ -1,0 +1,249 @@
+body{
+    background:#EEEEEE;
+}
+
+
+
+/*航线*/
+.route{
+    width:100%;
+    height:auto;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    margin-top:1.06rem;
+}
+.route li{
+    width:100%;
+    height:1.32rem;
+    border-radius:0.1rem;
+    font-size:10px;
+    color:#fff;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.route li a{
+    position:absolute;
+    width:100%;
+    height:100%;
+    /*background:red;*/
+}
+.route li .route-left{
+    width:80%;
+    height:1.32rem;
+    background:#4DBBFF;
+    border-right:1px dashed #00BFFF;
+    display: flex;
+    flex-direction: column;
+    padding:0 0.2rem;
+    box-sizing: border-box;
+}
+.route li .route-left .route-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.route li .route-left .route-bottom .bottom-img1{
+    width:0.31rem;
+    height:0.18rem;
+}
+.route li .route-left .route-bottom .bottom-img2{
+    width:2.2rem;
+    height:0.08rem;
+}
+.route li .route-left .route-bottom .bottom-img3{
+    width:0.35rem;
+    height:0.35rem;
+}
+.route li .route-left .route-bottom span {
+    display: flex;
+    flex-direction: column;
+    font-size:10px;
+    text-align: center;
+    font-weight:200;
+}
+.route li .route-left .route-bottom span i{
+    font-style: normal;
+    font-size:18px;
+    font-weight:normal;
+}
+.route li .route-price{
+    width:20%;
+    height:1.32rem;
+    background:#4DBBFF;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+}
+.route li .route-price span:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    font-size:10px;
+    font-weight:200;
+    text-align: center;
+}
+.route li .route-price span:nth-child(1) i{
+    font-style: normal;
+    font-size:10px;
+}
+.route li .route-price span:nth-child(2){
+
+    font-size:18px;
+    text-align:center;
+}
+
+/*中转航班推荐*/
+
+.now-city{
+    width:100%;
+    height:1rem;
+    background:#EFEFEF;
+    box-sizing: border-box;
+    padding:0 0.24rem;
+    display: flex;
+    flex-direction: column;
+    /*justify-content:flex-end;*/
+    align-content: flex-end;
+    margin-top:0.18rem;
+}
+
+.now-city .title{
+    font-size:18px;
+    color:#191919;
+}
+.now-city .en-title{
+    font-size:12px;
+    color:#306AFF;
+}
+.now-city .en-title span{
+
+    color:#30CCFF;
+}
+
+/*个人信息*/
+.grxx{
+    width:100%;
+    height:3.03rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    background:#EFEFEF;
+}
+.grxx ul{
+    width:100%;
+    height:3.03rem;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow:0 0 5px #DEDEDE;
+}
+
+.grxx ul li{
+    width:100%;
+    height:1.01rem;
+    background:#fff;
+    font-size:15px;
+    color:#2B2B2B;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0 0.35rem;
+    box-sizing: border-box;
+}
+.grxx ul li input{
+    width:4.75rem;
+    height:0.6rem;
+    background:#fff;
+    font-size:12px;
+    color:#2B2B2B;
+    border:2px solid #C3C3C3;
+    border-radius:0.1rem;
+}
+
+/*添加信息*/
+.tjxx{
+    width:100%;
+    height:3.03rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    background:#EFEFEF;
+}
+.tjxx ul{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tjxx ul li{
+    width:100%;
+    height:0.76rem;
+    border-bottom:1px dashed #A9A9A9;
+    display: flex;
+    font-size:15px;
+    align-items: center;
+}
+.tjxx ul li img{
+   width:0.31rem;
+    height:0.31rem;
+}
+
+.tjxx li  .checkbox{
+
+    width:0.32rem;
+    height:0.32rem;
+    border:1px solid #5C5D5D;
+    border-radius:50%;
+    margin-left:0.1rem;
+}
+.tjxx li .checkbox.show{
+
+    background:url("../../images/ml/duihao1.png") center center/contain;
+    -webkit-background-size: contain;
+}
+
+.tjxx li:nth-last-child(1){
+    height:1.17rem;
+}
+
+
+/*确认订单*/
+
+.qrdd{
+    width:100%;
+    height: auto;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    margin-top:0.46rem;
+}
+.qrdd .left{
+    width:50%;
+    height:1.02rem;
+    background:#00C3C3;
+    color:#fff;
+    text-align: center;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    font-size:24px;
+    line-height: 1.02rem;
+}
+
+.qrdd .right{
+    width:50%;
+    height:1.02rem;
+    background:#FFCC30;
+    color:#fff;
+    text-align: center;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    font-size:15px;
+    line-height: 1.02rem;
+}
+.qrdd .right a{
+   display: inherit;
+    width:100%;
+    height:100%;
+    color:#fff;
+}

@@ -1,0 +1,286 @@
+body{
+    background: #EFEFEF;
+}
+
+/*订单*/
+.order-form{
+    width:100%;
+    height:3.76rem;
+    background:#EFEFEF;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin-top:0.88rem;
+}
+.order-form .list-box{
+    width:100%;
+    height:3.76rem;
+    background:#fff;
+    border-radius: 0.1rem;
+    box-shadow: 0 0 5px #EFEFEF;
+}
+.order-form .list-box li{
+    width:100%;
+    height:0.56rem;
+    background:#fff;
+    border-bottom:1px dashed #BCBCBC;
+    box-sizing: border-box;
+    padding-left:0.6rem;
+    font-size:15px;
+    line-height:0.56rem;
+}
+.order-form .list-box li .imgs{
+    width:0.15rem;
+    height:0.15rem;
+    display: inline-block;
+    margin-right:0.2rem;
+}
+
+.order-form .list-box li:nth-child(1) {
+    width: 100%;
+    height: 1.04rem;
+    background: #fff;
+    border-bottom: 1px dashed #BCBCBC;
+    line-height:0.52rem;
+}
+.order-form .list-box li:nth-child(1) p:nth-child(2){
+   font-size:15px;
+    color:#30CCFF;
+}
+
+.order-form .list-box li:nth-child(5){
+    width:100%;
+    height:1.04rem;
+    background:#fff;
+    border:none;
+    line-height:1.04rem;
+}
+.order-form .list-box li:nth-child(5) p span{
+ font-size:24px;
+    color:#FF0000;
+}
+
+.pay{
+    width:100%;
+    height:0.96rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    margin-top:0.3rem;
+    margin-bottom:0.56rem;
+}
+.pay .pay-left{
+    width:50%;
+    height:100%;
+    background: #00C3C3;
+    color:#333333;
+    text-align: center;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pay .pay-left a{
+
+    text-align: center;
+    font-size:15px;
+    color:#333333;
+}
+.pay .pay-right{
+    width:50%;
+    height:100%;
+    background: #FFDD55;
+    color:#fff;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pay .pay-right a{
+    color:#fff;
+    text-align: center;
+    font-size:15px;
+}
+
+
+
+
+/*酒店推荐*/
+
+.hotel-box{
+    width:100%;
+    height:auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.hotel-box .hotel-title-box{
+    width:100%;
+    height:auto;
+
+}
+.hotel-box .hotel-title{
+    width:3.04rem;
+    height:0.67rem;
+    background: #EFEFEF;
+    display: flex;
+    color:#191919;
+    margin: 0 auto;
+    font-size:16px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hotel-box .hotel-title span{
+    height:0.60rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.hotel-box .hotel-title span strong{
+    font-size:12px;
+    display: flex;
+    justify-content: space-between;
+}
+.hotel-box .hotel-title strong i{
+    font-size:10px;
+    font-style: normal;
+    font-weight:bold;
+    color:#E49D04
+}
+.hotel-box .hotel-title img{
+    width:0.42rem;
+    height:0.14rem;
+}
+
+
+
+.hotel-box .item{
+    width:100%;
+    height:auto;
+    padding:0.26rem 0;
+    box-sizing: border-box;
+}
+
+.item .list{
+    width:100%;
+    height:3.14rem;
+    border:1px solid #eee;
+    box-shadow:0 0 5px #EEEEEE;
+    background: #fff;
+    display: flex;
+    margin-bottom:0.23rem;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius:0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0.2rem;
+}
+
+.item .list .list-left{
+    width:3rem;
+    height:100%;
+    flex:0 0 auto;
+    overflow: hidden;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius:0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0.2rem;
+}
+.item .list .list-left img{
+    width:100%;
+    height:100%;
+}
+.item .list .list-right{
+    display: flex;
+    flex-direction: column;
+    padding:0 0.28rem;
+    font-size:14px;
+}
+.item .list .list-right .l-top{
+    display: flex;
+    flex-direction: column;
+    font-size:14px;
+    margin-top:0.25rem;
+}
+
+.item .list .list-right .l-top .l-title{
+    display: flex;
+    font-size:14px;
+    align-items: center;
+    margin-bottom:0.15rem;
+}
+.item .list .list-right .l-top .l-title a{
+    color:#191919;
+}
+.item .list .list-right .l-top .l-title img{
+    width:0.96rem;
+    height:0.15rem;
+    margin-left:0.2rem;
+}
+.item .list .list-right .l-top .l-content{
+    font-size:10px;
+
+}
+.item .list .list-right .l-top .l-content a{
+    font-size:10px;
+    color:#191919;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item .list .list-right .l-top .price{
+    display: flex;
+    align-items:baseline;
+    margin-top:0.2rem;
+}
+.item .list .list-right .l-top .price .p-left{
+    display: flex;
+    align-items: center;
+}
+.item .list .list-right .l-top .price .p-left img{
+    width:0.4rem;
+    height:0.4rem;
+}
+.item .list .list-right .l-top .price .p-left span{
+    display: flex;
+    font-size:20px;
+    align-items:baseline;
+}
+.item .list .list-right .l-top .price .p-left span i{
+    font-style: normal;
+    font-size: 12px;
+}
+.item .list .list-right .l-top .price .p-right{
+    display: flex;
+    align-items:baseline;
+}
+.item .list .list-right .l-top .price .p-right img{
+    width:0.4rem;
+    height:0.4rem;
+}
+.item .list .list-right .l-top .price .p-right span{
+
+    font-size:12px;
+}
+
+
+.item .list .list-right .l-bottom{
+    display: flex;
+    font-size:12px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:0.25rem;
+}
+.item .list .list-right .l-bottom .icon{
+    display: flex;
+    font-size:10px;
+    align-items: center;
+    justify-content: center;
+}
+.item .list .list-right .l-bottom .icon img {
+    width: 0.29rem;
+    height: 0.29rem;
+}

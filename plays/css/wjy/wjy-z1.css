@@ -1,0 +1,58 @@
+body,html{
+	height: 100%;
+}
+section{
+	width: 7.5rem;
+	height: 100%;
+	background-color: #343434;
+	position: relative;
+	overflow: hidden;
+}
+.box{
+	width: 7.5rem;
+	line-height: 0px;
+	display: block;
+	position:absolute;
+	text-align: center;
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+}
+.box img{
+	width: 100%;
+	font-size: 0px;
+	display:line-block;
+}
+.box1{
+	width: 0.44rem;
+	height: 0.44rem;
+	position: absolute;
+	right: 0.58rem;
+	top: 0.52rem;
+}
+.box1 a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.box1 a img{
+	width: 100%;
+}
+.box2{
+	position: absolute;
+	width: 4.06rem;
+	height: 0.66rem;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	bottom: -0.34rem;
+	line-height: 0px;
+}
+.box2 img{
+	font-size: 0px;
+	width: 100%;
+}
+
+

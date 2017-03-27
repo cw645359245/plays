@@ -1,0 +1,595 @@
+html,body{
+    height:100%;
+}
+
+.head{
+    height:0.97rem;
+    background:#3A3A3A;
+    display: flex;
+    font-size:15px;
+    color:#929292;
+    align-items: center;
+    margin-top:0.88rem;
+
+}
+.head>*{
+    flex:0 1 auto;
+}
+.head img{
+    width:0.2rem;
+    height:0.27rem;
+}
+.head .left{
+    width:50%;
+    text-align: center;
+    box-sizing: border-box;
+    border-right:1px solid #717171;
+
+}
+.head .left .img1{
+    display:none;
+}
+head .left .img2{
+    display: inline-block;
+}
+.head .left.active .img1{
+    display:inline-block;
+
+}
+.head .left.active .img2{
+    display:none;
+
+}
+.head .left.active{
+   color:#74ECFE;
+
+}
+
+.head .right{
+    width:50%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.head .right .img1{
+    display:none;
+}
+head .right .img2{
+    display: inline-block;
+}
+.head .right.active .img1{
+    display:inline-block;
+
+}
+.head .right.active .img2{
+    display:none;
+
+}
+.head .right.active{
+    color:#74ECFE;
+
+}
+
+/*路线*/
+.road{
+    width:100%;
+    height: 2.82rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.road .road-content:nth-child(1){
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    position: absolute;
+    transition:transform .5s;
+    transform:translateX(0);
+}
+.road .road-content:nth-child(2){
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    position:absolute;
+    transition:transform .5s;
+    transform:translateX(100%);
+}
+.road .road-content li{
+  background:#F9F9F9;
+    height:0.94rem;
+    box-sizing: border-box;
+    border-bottom:1px solid #41C3FF;
+    display: flex;
+    justify-content: space-between;
+
+}
+.road .road-content li:nth-child(1) .li-left{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.road .road-content li:nth-child(1) .li-left a{
+
+    width:1.89rem;
+    height:0.6rem;
+    display: flex;
+    box-sizing: border-box;
+}
+.road .road-content li:nth-child(1) .li-left img{
+    width: 0.56rem;
+    height:0.34rem
+
+}
+.road .road-content li:nth-child(1) .li-mid{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.road .road-content li:nth-child(1) .li-mid img{
+
+    width:0.48rem;
+    height: 0.48rem;
+}
+.road .road-content li:nth-child(1) .li-right{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.road .road-content li:nth-child(1) .li-right img {
+    width:0.71rem;
+    height:0.33rem;
+}
+.road .road-content li:nth-child(1) .li-right a {
+    width:1.89rem;
+    height:0.6rem;
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+
+.road .road-content li:nth-child(2) .li-left{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.road .road-content li:nth-child(2) .li-left img{
+    width: 0.37rem;
+    height:0.41rem
+
+}
+.road .road-content li:nth-child(2) .li-left a{
+    width:1.89rem;
+    height:0.6rem;
+    display: flex;
+    box-sizing: border-box;
+
+}
+.road .road-content li:nth-child(2) .li-mid{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.road .road-content li:nth-child(2) .li-mid img{
+
+    width:0.36rem;
+    height: 0.33rem;
+}
+.road .road-content li:nth-child(2) .li-right{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.road .road-content li:nth-child(2) .li-right a{
+
+    width:1.89rem;
+    height:0.6rem;
+    display: flex;
+    box-sizing: border-box;
+}
+.road .road-content li:nth-child(2) .li-right img {
+    width:0.38rem;
+    height:0.4rem;
+}
+
+
+
+
+.road .road-content li:nth-child(3) .li-left{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.road .road-content li:nth-child(3) .li-left img{
+    width: 0.39rem;
+    height:0.34rem
+
+}
+
+.road .road-content li:nth-child(3) .li-right{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+}
+.road .road-content li:nth-child(3) .li-right img {
+    width:0.43rem;
+    height:0.34rem;
+}
+
+.road .road-content li:nth-child(3) {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+}
+.road .road-content li:nth-child(3)  .checkbox{
+
+   width:0.28rem;
+    height:0.28rem;
+    border:1px solid #5C5D5D;
+    border-radius:50%;
+    position:absolute;
+    left:4.5rem;
+    z-index: 222;
+}
+.road .road-content li:nth-child(3)  .checkbox.show{
+
+   background:url("../../images/ml/duihao1.png") center center/contain;
+    -webkit-background-size: contain;
+}
+
+.road .road-content li input{
+    width:1.89rem;
+    height:0.6rem;
+    border:1px solid #E6E6E6;
+    text-align: center;
+    border-radius:0.2rem;
+    font-size:12px;
+}
+.road .road-content li:nth-child(3) .li-left input{
+    width:1.9rem;
+    height:0.6rem;
+    border:1px solid #E6E6E6;
+    text-align: center;
+    border-radius:0.2rem;
+    margin-left:0.1rem;
+}
+.road .road-content li:nth-child(3) .li-right input{
+    width:2.64rem;
+    height:0.6rem;
+    border:1px solid #E6E6E6;
+    text-align: center;
+    border-radius:0.2rem;
+    margin-left:0.1rem;
+    padding-left:0.4rem;
+    box-sizing: border-box;
+
+}
+
+/*路线结束*/
+
+.query{
+    width:100%;
+    height:auto;
+    padding-top:0.73rem;
+    position: relative;
+}
+.query .btn{
+    width:3.79rem;
+    height:0.79rem;
+    background: url("../../images/ml/query.png") center center/cover;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:1.2rem;
+    margin:auto;
+}
+.query .query-img{
+     width:100%;
+     height:1.67rem;
+    background: url("../../images/ml/chaxunbg.png") center center/cover;
+    overflow: hidden;
+}
+.query .query-img p{
+   color:#fff;
+    font-size:12px;
+    text-align: left;
+    margin-top:0.67rem;
+    margin-left:1.56rem;
+}
+
+/*酒店推荐*/
+
+.hotel-box{
+    width:100%;
+    height:auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.hotel-box .hotel-title-box{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+}
+.hotel-box .hotel-title{
+    width:100%;
+    height:0.67rem;
+    background: #fff;
+    font-size:18px;
+    display: flex;
+    margin-top:0.36rem;
+    color:#191919;
+    align-items: center;
+
+}
+.hotel-box .hotel-title span{
+    display: inline-block;
+    width:3px;
+    height:0.33rem;
+    background: red;
+    margin-right: 0.03rem;
+}
+.hotel-box .hotel-title strong{
+    font-size:10px;
+    display: flex;
+    flex-direction: column;
+    color:#595959;
+    line-height:0.18rem;
+    font-weight:100;
+}
+.hotel-box .hotel-title strong i{
+    font-size:10px;
+    color:#595959;
+    font-style: normal;
+    font-weight:bold;
+}
+.hotel-title-box .title-bottom{
+    font-size:0;
+    line-height:0;
+    height:5px;
+}
+.hotel-title .title-bottom img{
+   width:0.23rem;
+    height: 0.05rem;
+}
+
+
+/*酒店推荐内容*/
+
+.hotel-box .item{
+    width:100%;
+    height:auto;
+    padding:0.26rem 0;
+    box-sizing: border-box;
+}
+
+.item .list{
+    width:100%;
+    height:3.14rem;
+    border:1px solid #eee;
+    box-shadow:0 0 5px #EEEEEE;
+    background: #fff;
+    display: flex;
+    margin-bottom:0.23rem;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius:0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0.2rem;
+}
+
+.item .list .list-left{
+    width:3rem;
+    height:100%;
+    flex:0 0 auto;
+    overflow: hidden;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius:0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0.2rem;
+}
+.item .list .list-left img{
+    width:100%;
+    height:100%;
+}
+.item .list .list-right{
+    display: flex;
+    flex-direction: column;
+    padding:0 0.28rem;
+    font-size:14px;
+}
+.item .list .list-right .l-top{
+     display: flex;
+     flex-direction: column;
+     font-size:14px;
+    margin-top:0.25rem;
+ }
+
+.item .list .list-right .l-top .l-title{
+    display: flex;
+    font-size:14px;
+    align-items: center;
+    margin-bottom:0.15rem;
+}
+.item .list .list-right .l-top .l-title a{
+    color:#191919;
+}
+.item .list .list-right .l-top .l-title img{
+    width:0.96rem;
+    height:0.15rem;
+    margin-left:0.2rem;
+}
+.item .list .list-right .l-top .l-content{
+    font-size:10px;
+
+}
+.item .list .list-right .l-top .l-content a{
+    font-size:10px;
+    color:#191919;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item .list .list-right .l-top .price{
+    display: flex;
+    align-items:baseline;
+    margin-top:0.2rem;
+}
+.item .list .list-right .l-top .price .p-left{
+    display: flex;
+    align-items: center;
+}
+.item .list .list-right .l-top .price .p-left img{
+    width:0.4rem;
+    height:0.4rem;
+}
+.item .list .list-right .l-top .price .p-left span{
+    display: flex;
+    font-size:20px;
+    align-items:baseline;
+}
+.item .list .list-right .l-top .price .p-left span i{
+  font-style: normal;
+    font-size: 12px;
+}
+.item .list .list-right .l-top .price .p-right{
+    display: flex;
+    align-items:baseline;
+}
+.item .list .list-right .l-top .price .p-right img{
+    width:0.4rem;
+    height:0.4rem;
+}
+.item .list .list-right .l-top .price .p-right span{
+
+    font-size:12px;
+}
+
+
+.item .list .list-right .l-bottom{
+    display: flex;
+    font-size:12px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:0.25rem;
+}
+.item .list .list-right .l-bottom .icon{
+    display: flex;
+    font-size:10px;
+    align-items: center;
+    justify-content: center;
+}
+.item .list .list-right .l-bottom .icon img{
+    width:0.29rem;
+    height:0.29rem;
+}
+
+
+/*选择仓位*/
+
+.select-position{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.8);
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: none;
+}
+.select-position .select-check-box{
+    width:7rem;
+    height:3.74rem;
+    background: blue;
+    position: absolute;
+    bottom:0;
+}
+.select-position .select-check-box .check{
+    height:3.74rem;
+    background: blue;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.select-position .check .s-title{
+     width:100%;
+     height:0.84rem;
+     display: flex;
+     justify-content: space-between;
+     box-sizing: border-box;
+     font-size:12px;
+     color:#fff;
+    background: #595959;
+    align-items: center;
+ }
+.select-position .check .s-title li:nth-child(1){
+    width:1.18rem;
+    height:0.5rem;
+   background: #DB1439;
+    border-radius:0.1rem;
+    text-align: center;
+    line-height: 0.5rem;
+    color:#2D2D2D;
+}
+
+.select-position .check .s-title li:nth-child(3){
+    width:1.18rem;
+    height:0.5rem;
+    background: #FB9318;
+    border-radius:0.1rem;
+    text-align: center;
+    line-height: 0.5rem;
+    color:#2D2D2D;
+}
+
+.select-position .check .s-content{
+    width:100%;
+    height:2.9rem;
+    background: #fff;
+    color:#2D2D2D;
+    padding:0.56rem 0.72rem;
+    box-sizing: border-box;
+    font-size:12px;
+    text-align: center;
+}
+.select-position .check .s-content li:nth-child(1){
+    width:100%;
+    height:0.68rem;
+    background: #F0F0F0;
+    color:#2D2D2D;
+    border-radius:0.1rem;
+    box-shadow: 0 0 10px #F0F0F0;
+    margin-bottom:0.24rem;
+    line-height: 0.68rem;
+}
+.select-position .check .s-content li:nth-child(2){
+    width:100%;
+    height:0.68rem;
+    background: #F0F0F0;
+    color:#2D2D2D;
+    border-radius:0.1rem;
+    box-shadow: 0 0 10px #F0F0F0;
+    line-height: 0.68rem;
+}
+.select-position .check .s-content li.active{
+  color:#006EF7;
+}

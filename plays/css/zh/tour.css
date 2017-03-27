@@ -1,0 +1,267 @@
+@import url(../public/base.css);
+body{
+	background-color: #EFEFEF;
+}
+
+/*header*/
+.wgb-head{
+	width: 100%;
+	height: 0.88rem;
+	padding: 0.15rem 0.2rem;
+	box-sizing:border-box;
+	display: flex;
+	background: #FFFFFF;
+	align-items:center;
+	justify-content:center;
+	justify-content:space-between;
+	font-size: 0;
+	/*margin-top: -0.40rem;*/
+	z-index: 15;
+	position: fixed;
+
+}
+.wgb-head .left{
+width: 0.42rem;
+
+}
+.wgb-head .left a img{
+	width: 0.42rem;
+}
+.wgb-head .middle section{
+	width: 5.81rem;
+	height: 0.51rem;
+	border-radius: 20px;
+	position: relative;
+}
+.wgb-head .middle input{
+	font-size: 10px;
+	width: 5.81rem;
+	height: 0.51rem;
+	border-radius: 20px;
+	z-index: 10;
+	padding-left: 0.25rem;
+	box-sizing:border-box;
+	background-color: #F2F2F2!important;
+	/*background:url(../../images/wgbimg/ss.png) no-repeat center center/cover;*/
+}
+.wgb-head .middle a{
+	display: block;
+	height: 100%;
+	width: 0.7rem;
+	background-color: #DADBDB;
+	background:url(../../images/public/voice1.png) no-repeat center center/contain;
+	background-size: 0.21rem;
+	position: absolute;
+	right: 0;
+	top:0;
+}
+
+.wgb-head .right {
+	width: 0.42rem;
+	height: 0.51rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.wgb-head .right a img{
+	width: 0.42rem;
+	align-self:center;
+	margin-top: 0.02rem;
+}
+
+/*banner*/
+.wb_banners{
+	width: 100%;
+	height: 4.72rem;
+	background: #ccc;
+	position: relative;
+	overflow: hidden;
+	padding-top: 0.88rem;
+}
+.wb_banners .ban{
+	width: 100%;
+	height: 100%;
+}
+.wb_banners .ban .ccc{
+
+}
+.wb_banners .ban .ccx{
+	/*width: 100%;*/
+	/*height: 100%;*/
+	height: 3.84rem;
+}
+.wb_banners .ccc .ccx img{
+	height: 100%;
+}
+.swiper-pagination-bullet{
+	width: 0.24rem;
+	height: 0.03rem;
+	background: #fff;
+	border-radius: 0;
+	opacity: 0.9;
+}
+.swiper-containerd-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	margin: 0 0.09rem;
+}
+.swiper-pagination-bullet-active{
+	background: #FFFF00;
+	/*opacity: 0.9;*/
+}
+
+/*出境游*/
+.tours{
+	width: 100%;
+	height: auto;
+}
+.tours .tabs{
+	width: 100%;
+	height: 0.98rem;
+	display: flex;
+}
+.tours .tabs .exit{
+	width: 33.33333333%;
+	/*height: 0.98rem;*/
+	height: 100%;
+	background-color: #F2F2F2;
+	text-align: center;
+	line-height: 0.98rem;
+	font-size: 13px;
+	color: #181818;
+}
+.tours .tabs .exit.hot{
+	background-color: #74ECFE;
+	color: #fff;
+}
+
+.tours .local{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding-left: 0.29rem;
+	padding-right: 0.29rem;
+	
+}
+.tours .local .part{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	margin-top: 0.12rem;
+	flex-wrap:wrap;
+}
+ .tours .local .part .place{
+ 	flex:0 0 1.5rem;
+	height: 0.34rem;
+	margin-top: 0.12rem;
+} 
+.tours .local .part .place a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #E4E4E4;
+	border-radius: 0.1rem;
+	color: #181818;
+	font-size: 10px;
+	text-align: center;
+	line-height: 0.34rem;
+}
+.tours .local .part .place a.hot{
+	background-color: #FD1440;
+	color: #fff;
+}
+
+/*旅游景点*/
+.spot{
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	box-sizing:border-box;
+}
+.spot a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.spot .imgtop{
+	width: 100%;
+	height: 1.76rem;
+	margin-top: 0.45rem;
+	position: relative;
+}
+.spot .imgtop img{
+	width: 100%;
+}
+.spot .imgtop .renqi{
+	width: 1.2rem;
+	height: 0.74rem;
+	position: absolute;
+	bottom: 1.13rem;
+	left: 0.38rem;
+	background: url(../../images/zh/renqi.png) no-repeat;
+	background-size: cover;
+	-webkit-background-size:cover;
+	z-index: 10;
+}
+.spot .imgtop .new{
+	width: 1.3rem;
+	height: 0.29rem;
+	position: absolute;
+	bottom: 0.16rem;
+	right: 0.14rem;
+	background: url(../../images/zh/new.png) no-repeat;
+	background-size: cover;
+	-webkit-background-size:cover;
+}
+
+.spot .textbot{
+	width: 6.8rem;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 0.16rem;
+	display: flex;
+	justify-content:space-between;
+}
+.spot .textbot .textleft{
+	width: 4.7rem;
+}
+.spot .textbot .textleft .title{
+	font-size: 13px;
+	line-height: 15px;
+	color: #181818;
+}
+.spot .textbot .textleft .text{
+	margin-top: 0.05rem;
+	font-size: 10px;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	line-height: 12px;
+	color: #2d2d2d;
+}
+.spot .textbot .price{
+	width: 1.74rem;
+	height: 0.52rem;
+	background-color: #FD9418;
+	border-radius: 0.05rem;
+	color: #fff;
+	display: flex;
+	align-items:flex-end;
+	justify-content:center;
+	/*align-items:baseline;*/
+}
+.spot .textbot .price .rmb{
+	font-size: 10px;
+	font-family: "苹方";
+	padding-right: -0.1rem;
+	margin-bottom: 0.03rem;
+}
+.spot .textbot .price .number{
+	font-size: 18px;
+	font-family: "Microsoft Yahei";
+	margin-bottom: 0.03rem;
+}
+
+@media screen and (max-width: 320px){
+	.spot .textbot .price{
+		width: 87px;
+		height: 26px;
+	}
+}

@@ -1,0 +1,222 @@
+body{
+    background:#EEEEEE;
+}
+
+.head{
+    width:100%;
+    height:0.63rem;
+    background: #505050;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:0.88rem;
+}
+
+.head .head-left{
+
+    display: flex;
+    font-size:10px;
+    align-items: center;
+}
+.head .head-left img{
+
+    width:0.42rem;
+    height:0.14rem;
+}
+
+.head .head-left span{
+
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+}
+
+.head .head-mid{
+    width:2.5rem;
+    height:0.46rem;
+    display: flex;
+    align-items: center;
+    border-radius:0.1rem;
+    background:#fff;
+    justify-content: space-between;
+    font-size:12px;
+    padding:0 0.16rem;
+    box-sizing: border-box;
+}
+.head .head-mid input{
+    width:1.16rem;
+    height:0.46rem;
+    border-radius:0.1rem;
+    background:transparent;
+    border:none;
+    outline: none;
+    font-size:10px;
+    color:#30CCFF;
+}
+.head .head-mid img{
+    width:0.24rem;
+    height:0.24rem;
+}
+.head .head-mid span{
+   color:#FF0606;
+    font-size:12px;
+}
+
+.head .head-right{
+
+    display: flex;
+    font-size:10px;
+    align-items: center;
+}
+.head .head-right img{
+
+    width:0.42rem;
+    height:0.14rem;
+}
+
+.head .head-right span{
+
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+}
+
+/*航线*/
+.route{
+    width:100%;
+    height:auto;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    margin-top:0.18rem;
+}
+.route li{
+    width:100%;
+    height:1.32rem;
+    border-radius:0.1rem;
+    font-size:10px;
+    color:#fff;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.route li a{
+    position:absolute;
+    width:100%;
+    height:100%;
+    /*background:red;*/
+}
+.route li .route-left{
+    width:80%;
+    height:1.32rem;
+    background:#4DBBFF;
+    border-right:1px dashed #00BFFF;
+    display: flex;
+    flex-direction: column;
+    padding:0 0.2rem;
+    box-sizing: border-box;
+}
+.route li .route-left .route-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.route li .route-left .route-bottom .bottom-img1{
+   width:0.31rem;
+    height:0.18rem;
+}
+.route li .route-left .route-bottom .bottom-img2{
+    width:2.2rem;
+    height:0.08rem;
+}
+.route li .route-left .route-bottom .bottom-img3{
+    width:0.35rem;
+    height:0.35rem;
+}
+.route li .route-left .route-bottom span {
+    display: flex;
+    flex-direction: column;
+    font-size:10px;
+    text-align: center;
+    font-weight:200;
+}
+.route li .route-left .route-bottom span i{
+    font-style: normal;
+    font-size:18px;
+    font-weight:normal;
+}
+.route li .route-price{
+    width:20%;
+    height:1.32rem;
+    background:#4DBBFF;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+}
+.route li .route-price span:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    font-size:10px;
+    font-weight:200;
+    text-align: center;
+}
+.route li .route-price span:nth-child(1) i{
+    font-style: normal;
+    font-size:10px;
+}
+.route li .route-price span:nth-child(2){
+
+    font-size:18px;
+    text-align:center;
+}
+
+/*中转航班推荐*/
+
+.now-city{
+    width:100%;
+    height:1rem;
+    background:#EFEFEF;
+    box-sizing: border-box;
+    padding:0 0.24rem;
+    display: flex;
+    flex-direction: column;
+    /*justify-content:flex-end;*/
+    align-content: flex-end;
+    margin-top:0.18rem;
+}
+
+.now-city .title{
+    font-size:18px;
+    color:#191919;
+}
+.now-city .en-title{
+    font-size:12px;
+    color:#306AFF;
+}
+.now-city .en-title span{
+
+    color:#30CCFF;
+}
+
+/*中转航班列表*/
+.route-recommend .route-list{
+    box-shadow:0 0 5px #E4E4E4;
+    margin-bottom:0.14rem;
+}
+.route-recommend .route-list .route-left{
+    background: #fff;
+    border-right:none;
+    color:#595959;
+}
+.route-recommend .route-list .route-left .route-bottom .bottom-img2{
+   width:0.5rem;
+    height:0.07rem;
+}
+.route-recommend .route-list .route-left .route-bottom span{
+    color:#898989;
+}
+.route-recommend .route-list .route-left .route-bottom span i{
+    color:#494949;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<script src="../js/public/rem.js"></script>
+	<link rel="stylesheet" href="../css/public/base.css">
+	<link rel="stylesheet" href="../css/wangyu-yuyin/yuyin1.css">
+</head>
+<body>
+	<header class="wy-guanbi">
+		<a href="search.html">
+			<img src="../images/wangyu-img/yuyin4.png" alt="">	
+		</a>
+	</header>
+	<section class="wy-biaoti">
+		<img src="../images/wangyu-img/yuyin1.png" alt="">
+	</section>
+	<section class="wy-yuyinqu">
+		<h3>00′00″</h3>
+		<div class="wy-yuyin">
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+			<div class="wy-tiao">
+				<div class="wy-t"></div>
+			</div>
+		</div>
+		<div class="wy-btn">
+			<a href="javascript:;" id="button">
+				<img src="../images/wangyu-img/yuyin2.png" alt="">
+			</a>
+			<h4>单击进行讲话<span>CLICK&nbsp;TO&nbsp;SPEAK</span>
+			</h4>
+		</div>
+	</section>
+	<footer class="wy-dibu">
+		<img src="../images/wangyu-img/yuyin3.jpg" alt="">
+	</footer>
+	<script>
+		var button=document.querySelector("#button");
+		button.addEventListener("touchstart",function(se){
+			console.dir(se);
+			var st=se.timeStamp;
+			if(st<2000){
+				location.href='voice3.html';
+			}else{
+				location.href='voice-end.html';
+			}
+
+			this.addEventListener("touchend",function(te){
+				// console.dir(te);
+			})
+		})
+	</script>
+</body>
+</html>
+

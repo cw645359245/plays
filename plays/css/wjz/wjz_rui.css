@@ -1,0 +1,147 @@
+@import url(../public/base.css);
+.wjz-banner{
+    width:100%;
+    height:3.5rem;
+    font-size: 0;
+    position: relative;
+    color:#fff;
+}
+.wjz-banner img{
+    width:100%;
+}
+.wjz-banner .bannerz{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    padding:0.2rem 0.24rem 0;
+    background: rgba(0,0,0,0.6);
+}
+.wjz-banner .bannerz a img{
+    width:0.4rem;
+}
+.wjz-banner .bannerz .name{
+    margin-top: 1.36rem;
+    font-size:24px;
+}
+.wjz-banner .bannerz .jieshao{
+    font-size: 12px;
+    margin-top: 0.1rem;
+}
+.wjz-banner .bannerz .xingji img{
+    width:0.19rem;
+}
+
+/*热门城市*/
+.wjz-rmcheng{
+    width:100%;
+    padding: 0 0.24rem 0.48rem;
+    background:#fff;
+    margin-top:0.1rem;
+}
+.wjz-rmcheng h5{
+    width:100%;
+    height:1.24rem;
+    background: url(../../images/wjz/pic_biao.png) center no-repeat;
+    background-size:3rem;
+    text-align: center;
+    line-height: 1.24rem;
+}
+.wjz-rmcheng .cheng{
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.wjz-rmcheng .cheng li{
+    width:3.3rem;
+    height:1rem;
+    margin-bottom: 0.42rem;
+    border-radius:0.1rem;
+    overflow: hidden;
+    position: relative;
+}
+.wjz-rmcheng .cheng li img{
+    width:100%;
+}
+.wjz-rmcheng .cheng li a{
+    display: block;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.6);
+    line-height:1rem;
+    text-align: center;
+    color:#fff;
+}
+.wjz-rmcheng .genduo{
+    width:100%;
+    text-align: center;
+}
+.wjz-rmcheng .genduo a{
+    display: inline-block;
+    width:1.8rem;
+    height:0.5rem;
+    background:#74ECFE;
+    color:#2D2D2D;
+    line-height: 0.5rem;
+    font-size: 12px;
+    border-radius:0.3rem;
+}
+.wjz-rmcheng .wan{
+    padding: 0.1rem 0.3rem;
+    background:#EFEFEF;
+    border-radius:0.1rem;
+    margin-bottom: 0.42rem;
+    overflow: hidden;
+    position: relative;
+}
+.wjz-rmcheng .wan .tian{
+    width: 1.1rem;
+    height:0.82rem;
+    background: url(../../images/wjz/pic_tian.png) no-repeat;
+    background-size: 1.1rem;
+    color:#FFFF00;
+    text-align: center;
+    line-height: 1rem;
+    float: left;
+    margin-right: 0.32rem;
+}
+.wjz-rmcheng .wan .jieshao{
+    width:3.64rem;
+    color:#191919;
+    float: left;
+}
+.wjz-rmcheng .wan .jieshao p{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.wjz-rmcheng .wan .jieshao .mudi{
+    font-size: 14px;
+    margin-bottom: 0.04rem;
+}
+.wjz-rmcheng .wan .jieshao .renshu{
+    margin-bottom: 0.07rem;
+}
+.wjz-rmcheng .wan .jieshao .renshu,.wjz-rmcheng .wan .jieshao .jianjie{
+    font-size: 12px;
+}
+.wjz-rmcheng .wan .jiage{
+    position: absolute;
+    right:0.3rem;
+    top:0;
+    bottom:0;
+    line-height: 1.2rem;
+    font-size: 14px;
+    font-weight: bold;
+    color:#FB9318;
+}
+.wjz-rmcheng .wan .jiage span{
+    font-size: 12px;
+    font-weight: 400;
+    color:#555555;
+}

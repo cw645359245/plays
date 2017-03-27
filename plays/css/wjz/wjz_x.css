@@ -1,0 +1,97 @@
+@import url(../public/base.css);
+.wjz-ding{
+    width:100%;
+    height: 0.79rem;
+    border-bottom:1px solid #DBDBDB;
+    padding:0.2rem 0.24rem 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display:flex;
+    justify-content:space-between;
+}
+.wjz-ding h4{
+    font-size:16px;
+    color:#191919;
+    line-height:0.5rem;
+}
+.wjz-ding a img{
+    width:0.4rem;
+}
+.wjz-zuozhe{
+    width:100%;
+    padding: 0.22rem 0.24rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top:0.48rem;
+    background:#FFFFFF;
+    color:#525252;
+}
+.wjz-zuozhe .name{
+    font-size: 12px;
+    height:0.26rem;
+    margin-bottom: 0.1rem;
+}
+.wjz-zuozhe .name .zan{
+    height: 100%;
+    padding-left: 0.14rem;
+    border-left:1px solid #DADADA;
+    float:right;
+    line-height: 0;
+    color:#191919;
+}
+.wjz-zuozhe .name .zan span{
+    font-size: 12px;
+}
+.wjz-zuozhe .name .zan img{
+    width: 0.2rem;
+}
+.wjz-zuozhe .jianjie{
+    font-size: 12px;
+    line-height: 0.36rem;
+}
+.wjz-jindianbiao{
+    width:100%;
+    height: 0.88rem;
+    font-size: 16px;
+    text-align: center;
+    line-height: 0.88rem;
+    background: url(../../images/wjz/pic_biao.png) center no-repeat;
+    background-size:3rem;
+}
+.wjz-gonglue{
+    width: 100%;
+    padding: 0 0.24rem;
+    overflow: hidden;
+    font-size: 14px;
+}
+.wjz-gonglue .gongbiao{
+    margin-bottom: 0.24rem;
+}
+.wjz-gonglue .gongbiao .xuhao{
+    width:0.4rem;
+    height:0.4rem;
+    border-radius:50%;
+    background:#74ECFE;
+    float: left;
+    font-size: 14px;
+    margin-right: 0.14rem;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.wjz-gonglue .gongnei{
+    width:100%;
+    padding-bottom: 0.42rem;
+    border-bottom:1px solid #DBDBDB;
+}
+.wjz-gonglue .gongnei img{
+    width:100%;
+}
+.wjz-gonglue .gongnei p{
+    font-size: 12px;
+    line-height: 0.36rem;
+}
+.wjz-gonglue ul li{
+    margin-bottom: 0.28rem;
+}

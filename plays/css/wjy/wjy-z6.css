@@ -1,0 +1,131 @@
+body{
+	background-color: #fff;
+}
+.g1{
+	width: 7.5rem;
+	height: 2.74rem;
+	background-color: #efefef;
+	position: relative;
+}
+.g1 img{
+	width: 5.82rem;
+	height: 2.48rem;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+
+}
+.swiper-container,.swiper-wrapper,.swiper-slide{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide{
+	position: relative;
+}
+.wen1{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 0.94rem;
+	padding-left: 0.22rem;
+}
+.wen1 p{
+	margin: 0px;
+	padding: 0px;
+}
+.wen1 p:first-child{
+	width: 100%;
+	font-size: 14px;
+}
+.wen1 p:last-child{
+	margin-top: 0.08rem;
+	font-size: 10px;
+	color: #999;
+}
+.forms,.forms li{
+	margin: 0px;
+	padding: 0px;
+}
+.forms{
+	width: 100%;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+}
+.forms li img{
+	font-size: 0px;
+	height: 0.38rem;
+	vertical-align: middle;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left:0px;
+	margin: auto;
+}
+.forms li{
+	font-size: 12px;
+	color: #666;
+	height: 0.85rem;
+	position: relative;
+	line-height:0.85rem;
+	border-bottom: 0.01rem solid #ccc;
+	padding-left: 0.52rem;
+}
+.forms li:last-child{
+	border-bottom: 0px;
+}
+.yuanquan{
+	width: 0.38rem;
+	height: 0.38rem;
+	display: inline-block;
+	border: 0.01rem solid #ccc;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	border-radius: 50%;
+}
+.yuandian{
+	width: 0.14rem;
+	height: 0.14rem;
+	display: block;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	border-radius: 50%;
+	background-color: #1fe498;
+}
+.btn123{
+	width: 7.02rem;
+	outline: none;
+	border: none;
+	display: block;
+	margin: 0px auto;
+	border-radius: 0.4rem;
+	height:0.88rem;
+	line-height: 0.88rem;
+	font-size: 16px;
+	color: #fff;
+	background-color:#ffb21e;
+	margin-top: 0.35rem;
+}
+.btnshou{
+	border-radius: 0.25rem;
+	width: 1.7rem;
+	position: absolute;
+	height: 0.6rem;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	font-size: 12px;
+	background-color: #2bd2fc;
+	text-align: center;
+	line-height: 0.6rem;
+	color: #fff;
+}

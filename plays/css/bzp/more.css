@@ -1,0 +1,30 @@
+
+.more{
+    width:100%;
+    height:1.72rem;
+    background: #fff;
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 0.8rem;
+    box-sizing: border-box;
+}
+.more figure{
+    width:1.17rem;
+    height:auto;
+}
+.more figure a{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-size: 13px;
+}
+.more figure a img{
+    width:100%;
+}
+.more figure a  figcaption{
+    margin-top:0.1rem;
+    width:100%;
+    text-align: center;
+}

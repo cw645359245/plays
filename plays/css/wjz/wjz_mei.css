@@ -1,0 +1,69 @@
+@import url(../public/base.css);
+.wjz-toubu{
+    width:100%;
+    height:0.8rem;
+    background:#fff;
+    padding:0 0.24rem;
+    position: relative;
+    text-align:center;
+    border-bottom:1px solid #DBDBDB;
+}
+.wjz-toubu .fanhui{
+    position: absolute;
+    left:0.24rem;
+    top:0;
+    height:100%;
+    line-height: 1rem;
+    text-align:center;
+    color:#191919;
+    font-size: 16px;
+}
+.wjz-toubu .fanhui a img{
+    width:0.4rem;
+}
+.wjz-toubu span{
+    color:#191919;
+    font-size: 16px;
+    line-height: 0.8rem;
+}
+/*顶部结束*/
+.wjz-jindianbiao{
+    width:100%;
+    height: 0.88rem;
+    font-size: 16px;
+    text-align: center;
+    line-height: 0.88rem;
+    background: url(../../images/wjz/pic_biao.png) center no-repeat;
+    background-size:3rem;
+    position: relative;
+}
+.wjz-jindianbiao p{
+    font-size: 14px;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.wjz-rnei{
+    width:100%;
+    padding:0 0.24rem;
+    margin-top: 0.44rem;
+}
+.wjz-rnei p{
+    font-size: 14px;
+    line-height: 0.5rem;
+    margin-bottom: 0.48rem;
+}
+.wjz-rnei h1{
+    font-size: 14px;
+    color:#FB9218;
+    margin-bottom: 0.8rem;
+}
+.wjz-rnei .tu{
+    width:100%;
+    text-align: center;
+}
+.wjz-rnei .tu img{
+    width:6rem;
+}
